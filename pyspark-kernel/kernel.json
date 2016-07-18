@@ -1,0 +1,12 @@
+{
+  "argv":  [
+  "/opt/local/bin/python2.7",
+  "-m",
+  "IPython.kernel",
+  "--profile=pyspark",
+  "-f",
+  "{connection_file}"
+ ],
+  "display_name": "pyspark (Spark 1.4.0)",
+  "language": "python"
+}
