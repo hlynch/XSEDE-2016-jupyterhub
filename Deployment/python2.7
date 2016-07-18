@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function main
+{
+    ROOT_MODULES=true
+    source /etc/profile.d/modules.sh
+    module load intel mkl python/2.7.10
+    source /opt/ipykernel/bin/activate
+    exec python2.7 "$@"
+}
+
+main "$@"

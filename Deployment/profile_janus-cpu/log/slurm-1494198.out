@@ -1,0 +1,11 @@
+srun: mem < mem-per-cpu - resizing mem to be equal to mem-per-cpu
+2016-07-08 23:33:59.378 [IPEngineApp] Using existing profile dir: '/home/joan5896/.ipython/profile_janus-cpu'
+2016-07-08 23:33:59.395 [IPEngineApp] Loading url_file '/home/joan5896/.ipython/profile_janus-cpu/security/ipcontroller-engine.json'
+2016-07-08 23:33:59.415 [IPEngineApp] Registering with controller at tcp://10.225.128.112:34470
+WARNING: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+2016-07-08 23:33:59.541 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2016-07-08 23:33:59.557 [IPEngineApp] Using existing profile dir: '/home/joan5896/.ipython/profile_janus-cpu'
+2016-07-08 23:33:59.560 [IPEngineApp] Completed registration with id 0
+slurmstepd: error: *** JOB 1494198 ON node0735 CANCELLED AT 2016-07-08T23:40:27 ***
+slurmstepd: error: *** STEP 1494198.0 ON node0735 CANCELLED AT 2016-07-08T23:40:27 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

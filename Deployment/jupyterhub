@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+function main
+{
+    HOME=~
+    ROOT_MODULES=true
+    source /etc/profile.d/modules.sh
+    module load intel mkl python/3.4.3 nodejs slurm/slurm
+    source /opt/jupyterhub/bin/activate
+    export R_LIBS=/opt/jupyterhub/lib/R
+    exec jupyterhub "$@"
+}
+
+
+main "$@"

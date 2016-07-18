@@ -1,0 +1,9 @@
+[Unit]
+Description=JupyterHub - A multi-user server for Jupyter notebooks
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/jupyterhub -f /opt/jupyterhub/etc/jupyterhub.py
+
+[Install]
+WantedBy=multi-user.target

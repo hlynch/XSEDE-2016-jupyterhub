@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function main
+{
+    /curc/tools/jupyterhub/libexec/jupyter_init.sh
+    /curc/tools/jupyterhub/libexec/ipython_init.sh
+    exec jupyterhub-singleuser "$@"
+}
+
+main "$@"

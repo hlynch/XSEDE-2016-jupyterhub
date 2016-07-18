@@ -1,0 +1,11 @@
+srun: mem < mem-per-cpu - resizing mem to be equal to mem-per-cpu
+2016-07-08 23:24:14.134 [IPEngineApp] Using existing profile dir: '/home/joan5896/.ipython/profile_crestone-cpu'
+2016-07-08 23:24:14.157 [IPEngineApp] Loading url_file '/home/joan5896/.ipython/profile_crestone-cpu/security/ipcontroller-engine.json'
+2016-07-08 23:24:14.180 [IPEngineApp] Registering with controller at tcp://10.225.128.112:33235
+WARNING: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+2016-07-08 23:24:14.451 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2016-07-08 23:24:14.474 [IPEngineApp] Using existing profile dir: '/home/joan5896/.ipython/profile_crestone-cpu'
+2016-07-08 23:24:14.480 [IPEngineApp] Completed registration with id 0
+slurmstepd: error: *** JOB 1494196 ON cnode0116 CANCELLED AT 2016-07-08T23:40:24 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1494196.0 ON cnode0116 CANCELLED AT 2016-07-08T23:40:24 ***
